@@ -1,0 +1,86 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/images/selfie.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 200px; /* Use cover to fill the body with the image */
+  height: 100vh; /* Ensure the body covers the entire viewport */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* Ensure z-index works */
+  border-radius: 50px;
+}
+
+h1 {
+  font-family: 'Press Start 2P', sans-serif;
+  color: rgb(162, 15, 230); /* Initial text color */
+  padding: 20px;
+  font-size: 36px;
+  position: absolute; /* Position the h1 absolutely within the body */
+  top: 20%; /* Align the top of the h1 to the middle of the body */
+  left: 50%; /* Align the left of the h1 to the middle of the body */
+  transform: translate(-50%, -50%); /* Center the h1 both horizontally and vertically */
+  z-index: 999; /* Ensure the h1 appears above other content */
+
+}
+h3 {
+  color: rgb(230, 15, 15); 
+  font-family: 'Press Start 2P', sans-serif;
+ 
+  font-size: 24px;
+  position: absolute;
+  top: 65%; /* Adjust the top value to position h3 lower than h1 */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+h6{
+  color: rgb(15, 216, 230);
+  font-family: 'Press Start 2P', sans-serif;
+  font-size: 24px;
+  position: absolute;
+  top: 70%; /* Adjust the top value to position h3 lower than h1 */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+h2{
+color: rgb(205, 230, 15);
+position: absolute;
+top: 80%; /* Adjust the top value to position h3 lower than h1 */
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 999;
+}
+p{
+  color: rgb(15, 47, 230);
+  position: absolute;
+  top: 90%; /* Adjust the top value to position h3 lower than h1 */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+
+}
+p1{
+  color: rgb(15, 230, 15);
+  position: absolute;
+  top: 88%; /* Adjust the top value to position h3 lower than h1 */
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
